@@ -38,7 +38,7 @@ function App() {
             ...task,
         }
     ]);
-  }
+  
 
   const handleDelete = (_id) => {
     setListTasks(
