@@ -63,7 +63,7 @@ function App() {
     );
   }
 
-  const handleEdit = (task) => {
+  const handleEdit = (task) {
     setListTasks(
         listTasks.map( t => {
             if ( t._id === task._id) {
